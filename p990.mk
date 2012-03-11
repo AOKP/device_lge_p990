@@ -33,6 +33,10 @@ PRODUCT_PACKAGES += \
     audio.primary.p990
     #audio_policy.p990
 
+# Camera
+PRODUCT_PACKAGES += \
+    Camera
+
 PRODUCT_NAME := full_p990
 PRODUCT_DEVICE := p990
 PRODUCT_MODEL := LG-P990
