@@ -1,13 +1,13 @@
 ## Specify phone tech before including full_phone
-$(call inherit-product, vendor/cm/config/gsm.mk)
+$(call inherit-product, vendor/aokp/config/gsm.mk)
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/aokp/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/lge/p990/p990.mk)
 
-PRODUCT_NAME := cm_p990
+PRODUCT_NAME := aokp_p990
 
 # Release name and versioning
 PRODUCT_RELEASE_NAME := Optimus2X
