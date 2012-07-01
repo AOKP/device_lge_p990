@@ -26,3 +26,10 @@ ro.vold.switchablepair=/mnt/sdcard,/mnt/emmc
 # Add LGE's release identifier. hwmediaplugin checks for this when
 # the network string contains "Vodafone", and crashes if absent
 ro.build.lge.version.release=LGP990-V20l
+
+# hardware info
+ro.device.cpu=1.0 GHz dual-core Nvidia Tegra 250 AP20H
+ro.device.gpu=Nvidia Tegra 250 AP20H
+ro.device.rear_cam=8 MP
+ro.device.front_cam=1.3 MP
+ro.device.screen_res=400x800
